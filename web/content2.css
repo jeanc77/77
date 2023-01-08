@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+.profile-img{
+    clip-path: circle(45%);
+    height:370px;
+
+     /* 置中 */
+     display:block;
+     margin-left:auto;
+     margin-right:auto;
+     width:83%;
+ 
+     margin-top:30px;
+}
+
+.card{
+    background-color: darkslategrey;
+    height:700px;
+    border-radius: 30%;
+    margin:10px 10px 10px 10px;
+}
+
+.card-title{
+    color:azure;
+    margin:130px 0px 0px 0px;
+}
+
+.card-text{
+    color:azure;
+}
+
+.btn{
+    width:60%;
+    font-size: 15px;
+    border:none;
+    color: rgb(228, 216, 216);
+    background-color:rgb(76, 35, 35);
+    padding:10px;
+}
